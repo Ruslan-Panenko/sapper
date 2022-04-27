@@ -34,9 +34,9 @@ def get_field(text):
     result = []
     arr = text.split('cell ')
     counter = 0
-    for _ in width:
+    for _ in range(width):
         res = []
-        for _ in heigth:
+        for _ in range(heigth):
 
             if 'hd_closed' in arr[counter]:
                 res.append('#')
